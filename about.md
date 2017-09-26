@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi, my name is Jan Deinhard. I studied digital media and work as a software engineer in Hamburg. This blog is deticated to improving myself as a software engineer. I am very much interested in the C++ programming language as well as its standards and libraries such as STL and many of the Boost C++ Libraries. Furthermore, I enjoy working with JavaScript on the Node.js platform and Python.
