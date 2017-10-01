@@ -4,7 +4,7 @@ title:  "Try C++17 with Docker"
 date:   2017-09-15 12:00:00 +0200
 tags: [cpp, docker, container]
 ---
-Docker offers a comfortable way to try the latest C++ features without installing the compiler on the local machine. With Docker it is possible to launch a container just for compilation. In this articel I demonstrate how to use the official GCC container to work with C++17 features. GCC has [experimental support][gcc-cxx-status] for the latest C++ standard C++17.
+Docker offers a comfortable way to try the latest C++ features without installing the compiler on the local machine. With Docker it is possible to launch a container just for compilation. In this article I demonstrate how to use the official GCC container to work with C++17 features. GCC has [experimental support][gcc-cxx-status] for the latest C++ standard C++17.
 
 First and foremost, we need to pull the GCC image from [Docker Hub][docker-hub-gcc]. In this case we explicitely pull the latest version of the container because we want to play with the latest features. Currently, the latest image is equal to version 7.2.0.
 
@@ -72,7 +72,7 @@ $ file test
 test: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.32, not stripped
 {% endhighlight %}
 
-Lets try to execute the program in anouter container:
+Lets try to execute the program in another container:
 
 {% highlight bash %}
 $ docker run --rm -v "$PWD":/shared -w /shared debian ./test
